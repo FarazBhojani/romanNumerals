@@ -14,6 +14,7 @@
 		D0E48F471B4D8FF9006B847E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E48F461B4D8FF9006B847E /* Images.xcassets */; };
 		D0E48F4A1B4D8FF9006B847E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0E48F481B4D8FF9006B847E /* LaunchScreen.xib */; };
 		D0E48F561B4D8FF9006B847E /* NumeralsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E48F551B4D8FF9006B847E /* NumeralsTests.m */; };
+		D0E48F611B4DC6A7006B847E /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E48F601B4DC6A7006B847E /* Utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D0E48F4F1B4D8FF9006B847E /* NumeralsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumeralsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E48F541B4D8FF9006B847E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0E48F551B4D8FF9006B847E /* NumeralsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumeralsTests.m; sourceTree = "<group>"; };
+		D0E48F5F1B4DC6A7006B847E /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		D0E48F601B4DC6A7006B847E /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				D0E48F461B4D8FF9006B847E /* Images.xcassets */,
 				D0E48F481B4D8FF9006B847E /* LaunchScreen.xib */,
 				D0E48F391B4D8FF9006B847E /* Supporting Files */,
+				D0E48F5F1B4DC6A7006B847E /* Utils.h */,
+				D0E48F601B4DC6A7006B847E /* Utils.m */,
 			);
 			path = Numerals;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				D0E48F421B4D8FF9006B847E /* ViewController.m in Sources */,
 				D0E48F3F1B4D8FF9006B847E /* AppDelegate.m in Sources */,
 				D0E48F3C1B4D8FF9006B847E /* main.m in Sources */,
+				D0E48F611B4DC6A7006B847E /* Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +424,7 @@
 				D0E48F5B1B4D8FF9006B847E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0E48F5C1B4D8FF9006B847E /* Build configuration list for PBXNativeTarget "NumeralsTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				D0E48F5E1B4D8FF9006B847E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
