@@ -61,7 +61,7 @@
     [self.numeralLabel setText:[Utils numeralToRoman: digit]];
 
     
-    [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForItem:digit inSection:0] atScrollPosition:UITableViewScrollPositionMiddle animated:YES];
+    [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForItem:digit-1 inSection:0] atScrollPosition:UITableViewScrollPositionTop animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

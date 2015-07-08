@@ -34,7 +34,7 @@
     }
     
     NSInteger highestFactor = 1, highestFactorIndex = 0;
-    for( int i = numeralIndex.count-1; i --; i > 0 )
+    for( NSInteger i = (NSInteger)numeralIndex.count-1; i --; )
         if( num/[numeralIndex[i] integerValue] >= 1 )
         {
             highestFactor = [numeralIndex[i] integerValue];

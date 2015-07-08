@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "Utils.h"
 
 @interface NumeralsTests : XCTestCase
 
@@ -25,10 +26,23 @@
     [super tearDown];
 }
 
+
+- (void)testNumeralBoundCase1 {
+    XCTAssertEqualObjects([Utils numeralToRoman:1], @"I");
+}
+
+- (void)testNumeralGenericCase1 {
+    XCTAssertEqualObjects([Utils numeralToRoman:2], @"II");
+    XCTAssertEqualObjects([Utils numeralToRoman:3], @"III");
+    XCTAssertEqualObjects([Utils numeralToRoman:4], @"IV");
+    XCTAssertEqualObjects([Utils numeralToRoman:5], @"V");
+}
+
 - (void)testExample {
     // This is an example of a functional test case.
     XCTAssert(YES, @"Pass");
 }
+
 
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
